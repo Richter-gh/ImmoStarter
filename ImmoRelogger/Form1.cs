@@ -372,6 +372,7 @@ namespace ImmoRelogger
             if (Properties.Settings.Default.height == "")
             {
                 Properties.Settings.Default.height = "0";
+                //t
                 Properties.Settings.Default.Save();
             }
             int i = int.Parse(Properties.Settings.Default.height);
