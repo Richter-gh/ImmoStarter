@@ -67,6 +67,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.updateTimer = new System.Windows.Forms.Timer(this.components);
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.SchedulerButton = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.RenameButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // maskedTextBox1
@@ -291,7 +295,7 @@
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(75, 23);
             this.button16.TabIndex = 23;
-            this.button16.Text = "sortWindows";
+            this.button16.Text = "Resize\\Sort";
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
@@ -382,7 +386,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(335, 121);
+            this.label1.Location = new System.Drawing.Point(335, 147);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(89, 13);
             this.label1.TabIndex = 33;
@@ -392,25 +396,62 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(338, 163);
+            this.checkBox1.Location = new System.Drawing.Point(338, 189);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(82, 17);
+            this.checkBox1.Size = new System.Drawing.Size(87, 17);
             this.checkBox1.TabIndex = 34;
-            this.checkBox1.Text = "reduceMem";
+            this.checkBox1.Text = "ReduceMem";
             this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // updateTimer
             // 
             this.updateTimer.Enabled = true;
-            this.updateTimer.Interval = 5000;
+            this.updateTimer.Interval = 1000;
             this.updateTimer.Tick += new System.EventHandler(this.updateTimer_Tick);
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(338, 213);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(74, 17);
+            this.checkBox2.TabIndex = 35;
+            this.checkBox2.Text = "Scheduler";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            // 
+            // SchedulerButton
+            // 
+            this.SchedulerButton.Location = new System.Drawing.Point(338, 242);
+            this.SchedulerButton.Name = "SchedulerButton";
+            this.SchedulerButton.Size = new System.Drawing.Size(75, 23);
+            this.SchedulerButton.TabIndex = 36;
+            this.SchedulerButton.Text = "Scheduler";
+            this.SchedulerButton.UseVisualStyleBackColor = true;
+            this.SchedulerButton.Click += new System.EventHandler(this.SchedulerButton_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // RenameButton
+            // 
+            this.RenameButton.Location = new System.Drawing.Point(338, 94);
+            this.RenameButton.Name = "RenameButton";
+            this.RenameButton.Size = new System.Drawing.Size(75, 23);
+            this.RenameButton.TabIndex = 37;
+            this.RenameButton.Text = "Rename";
+            this.RenameButton.UseVisualStyleBackColor = true;
+            this.RenameButton.Click += new System.EventHandler(this.RenameButton_Click);
             // 
             // ImmoStarterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(425, 272);
+            this.Controls.Add(this.RenameButton);
+            this.Controls.Add(this.SchedulerButton);
+            this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button21);
@@ -494,6 +535,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Timer updateTimer;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.Button SchedulerButton;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button RenameButton;
     }
 }
 
