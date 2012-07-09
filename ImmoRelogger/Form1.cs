@@ -229,7 +229,6 @@ namespace ImmoRelogger
                 catch(SystemException d)
                 {
                 }
-                //proc.CloseMainWindow();
             }
             
         }
