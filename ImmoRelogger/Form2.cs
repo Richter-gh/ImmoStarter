@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
+using ImmoRelogger.Properties;
 
 namespace ImmoRelogger
 {
@@ -14,24 +9,35 @@ namespace ImmoRelogger
         public Form2()
         {
             InitializeComponent();
+            heightbox.Text = Settings.Default.height;
+            maskedTextBox1.Text = Settings.Default.Width;
+            maskedTextBox2.Text = Settings.Default.Heigth;
+            maskedTextBox3.Text = Settings.Default.Interval;
+            maskedTextBox4.Text = Settings.Default.ScreenWidth;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.height = heightbox.Text;
-            //Properties.Settings.Default.length = lengthbox.Text;
-            Properties.Settings.Default.Save();
+            Settings.Default.height = heightbox.Text;
+            Settings.Default.Width = maskedTextBox1.Text;
+            Settings.Default.Heigth = maskedTextBox2.Text;
+            Settings.Default.Interval = maskedTextBox3.Text;
+            Settings.Default.ScreenWidth = maskedTextBox4.Text;
+            Settings.Default.Save();
             ActiveForm.Close();
         }
-        
+
 
         private void Form2_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == 13)
+            if(e.KeyChar == 13)
             {
-                Properties.Settings.Default.height = heightbox.Text;
-                //Properties.Settings.Default.length = lengthbox.Text;
-                Properties.Settings.Default.Save();
+                Settings.Default.height = heightbox.Text;
+                Settings.Default.Width = maskedTextBox1.Text;
+                Settings.Default.Heigth = maskedTextBox2.Text;
+                Settings.Default.Interval = maskedTextBox3.Text;
+                Settings.Default.ScreenWidth = maskedTextBox4.Text;
+                Settings.Default.Save();
                 ActiveForm.Close();
             }
         }

@@ -166,5 +166,473 @@ namespace ImmoRelogger.Properties {
                 this["im10"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int MondayStartHour {
+            get {
+                return ((int)(this["MondayStartHour"]));
+            }
+            set {
+                this["MondayStartHour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int MondayStartMin {
+            get {
+                return ((int)(this["MondayStartMin"]));
+            }
+            set {
+                this["MondayStartMin"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int MondayStopHour {
+            get {
+                return ((int)(this["MondayStopHour"]));
+            }
+            set {
+                this["MondayStopHour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int MondayStopMin {
+            get {
+                return ((int)(this["MondayStopMin"]));
+            }
+            set {
+                this["MondayStopMin"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int TuesdayStartHour {
+            get {
+                return ((int)(this["TuesdayStartHour"]));
+            }
+            set {
+                this["TuesdayStartHour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int TuesdayStartMin {
+            get {
+                return ((int)(this["TuesdayStartMin"]));
+            }
+            set {
+                this["TuesdayStartMin"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int TuesdayStopHour {
+            get {
+                return ((int)(this["TuesdayStopHour"]));
+            }
+            set {
+                this["TuesdayStopHour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int TuesdayStopMin {
+            get {
+                return ((int)(this["TuesdayStopMin"]));
+            }
+            set {
+                this["TuesdayStopMin"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int WednesdayStartHour {
+            get {
+                return ((int)(this["WednesdayStartHour"]));
+            }
+            set {
+                this["WednesdayStartHour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int WednesdayStartMin {
+            get {
+                return ((int)(this["WednesdayStartMin"]));
+            }
+            set {
+                this["WednesdayStartMin"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int WednesdayStopHour {
+            get {
+                return ((int)(this["WednesdayStopHour"]));
+            }
+            set {
+                this["WednesdayStopHour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int WednesdayStopMin {
+            get {
+                return ((int)(this["WednesdayStopMin"]));
+            }
+            set {
+                this["WednesdayStopMin"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int ThursdayStartHour {
+            get {
+                return ((int)(this["ThursdayStartHour"]));
+            }
+            set {
+                this["ThursdayStartHour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int ThursdayStartMin {
+            get {
+                return ((int)(this["ThursdayStartMin"]));
+            }
+            set {
+                this["ThursdayStartMin"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int ThursdayStopHour {
+            get {
+                return ((int)(this["ThursdayStopHour"]));
+            }
+            set {
+                this["ThursdayStopHour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int ThursdayStopMin {
+            get {
+                return ((int)(this["ThursdayStopMin"]));
+            }
+            set {
+                this["ThursdayStopMin"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int FridayStartHour {
+            get {
+                return ((int)(this["FridayStartHour"]));
+            }
+            set {
+                this["FridayStartHour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int FridayStartMin {
+            get {
+                return ((int)(this["FridayStartMin"]));
+            }
+            set {
+                this["FridayStartMin"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int FridayStopHour {
+            get {
+                return ((int)(this["FridayStopHour"]));
+            }
+            set {
+                this["FridayStopHour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int FridayStopMin {
+            get {
+                return ((int)(this["FridayStopMin"]));
+            }
+            set {
+                this["FridayStopMin"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int SaturdayStartHour {
+            get {
+                return ((int)(this["SaturdayStartHour"]));
+            }
+            set {
+                this["SaturdayStartHour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int SaturdayStartMin {
+            get {
+                return ((int)(this["SaturdayStartMin"]));
+            }
+            set {
+                this["SaturdayStartMin"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int SaturdayStopHour {
+            get {
+                return ((int)(this["SaturdayStopHour"]));
+            }
+            set {
+                this["SaturdayStopHour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int SaturdayStopMin {
+            get {
+                return ((int)(this["SaturdayStopMin"]));
+            }
+            set {
+                this["SaturdayStopMin"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int SundayStartHour {
+            get {
+                return ((int)(this["SundayStartHour"]));
+            }
+            set {
+                this["SundayStartHour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int SundayStartMin {
+            get {
+                return ((int)(this["SundayStartMin"]));
+            }
+            set {
+                this["SundayStartMin"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int SundayStopHour {
+            get {
+                return ((int)(this["SundayStopHour"]));
+            }
+            set {
+                this["SundayStopHour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int SundayStopMin {
+            get {
+                return ((int)(this["SundayStopMin"]));
+            }
+            set {
+                this["SundayStopMin"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool MondayEnabled {
+            get {
+                return ((bool)(this["MondayEnabled"]));
+            }
+            set {
+                this["MondayEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool TuesdayEnabled {
+            get {
+                return ((bool)(this["TuesdayEnabled"]));
+            }
+            set {
+                this["TuesdayEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool WednesdayEnabled {
+            get {
+                return ((bool)(this["WednesdayEnabled"]));
+            }
+            set {
+                this["WednesdayEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool ThursdayEnabled {
+            get {
+                return ((bool)(this["ThursdayEnabled"]));
+            }
+            set {
+                this["ThursdayEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool FridayEnabled {
+            get {
+                return ((bool)(this["FridayEnabled"]));
+            }
+            set {
+                this["FridayEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool SaturdayEnabled {
+            get {
+                return ((bool)(this["SaturdayEnabled"]));
+            }
+            set {
+                this["SaturdayEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool SundayEnabled {
+            get {
+                return ((bool)(this["SundayEnabled"]));
+            }
+            set {
+                this["SundayEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Width {
+            get {
+                return ((string)(this["Width"]));
+            }
+            set {
+                this["Width"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Heigth {
+            get {
+                return ((string)(this["Heigth"]));
+            }
+            set {
+                this["Heigth"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Interval {
+            get {
+                return ((string)(this["Interval"]));
+            }
+            set {
+                this["Interval"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ScreenWidth {
+            get {
+                return ((string)(this["ScreenWidth"]));
+            }
+            set {
+                this["ScreenWidth"] = value;
+            }
+        }
     }
 }
