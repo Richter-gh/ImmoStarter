@@ -177,7 +177,7 @@ namespace ImmoRelogger
                         ImmoRunning[i] = true;
                         tr = new Thread(start);
                         tr.Start(i);
-                        Thread.Sleep(4000);
+                        Thread.Sleep(7000);
 
                     }
                 }
