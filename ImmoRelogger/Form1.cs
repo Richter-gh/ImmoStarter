@@ -171,10 +171,15 @@ namespace ImmoRelogger
             {
                 if (ImmoEnabled[i])
                 {
-                    ImmoRunning[i]=true;
-                    tr=new Thread(start);
-                    tr.Start(i);
-                    Thread.Sleep(4000);
+                    if(!ImmoRunning[i])
+                    {
+
+                        ImmoRunning[i] = true;
+                        tr = new Thread(start);
+                        tr.Start(i);
+                        Thread.Sleep(4000);
+
+                    }
                 }
             }
             
